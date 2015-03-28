@@ -12,17 +12,19 @@ This guide walks you through using Maven to build a simple Java project.
 
 == Instructions for Modified build with SSH in the pom.
 
+NOTES : This worked on a Linux Desktop to Vagrant VM, so Linux to Linux, With Windows you mave have to change scp to scp.exe, check with Rich E, as he has vast experience with Windows and Keys etc.
+
 1. Check out this project.
 2. cd initial
 3. mvn compile
 4. mvn package
 5. mvn deploy
 
-6. Change it all around to work with spingboot.
+6. Change it all around to work with spingboot if you so desire.
 
 Make sure your settings.xml is correct in ~/.m2/settings.xml
 
-An example is in the root of the project.
+An example of the settings.xml is in the root of the project.
 
 Enjoy and drink Tea.
 
