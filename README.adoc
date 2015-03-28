@@ -10,6 +10,22 @@ projects: []
 :project_id: gs-maven
 This guide walks you through using Maven to build a simple Java project.
 
+== Instructions for Modified build with SSH in the pom.
+
+1. Check out this project.
+2. cd initial
+3. mvn compile
+4. mvn package
+5. mvn deploy
+
+6. Change it all around to work with spingboot.
+
+Make sure your settings.xml is correct in ~/.m2/settings.xml
+
+An example is in the root of the project.
+
+Enjoy and drink Tea.
+
 == What you'll build
 
 You'll create an application that provides the time of day and then build it with Maven.
